@@ -1,0 +1,40 @@
+.no-js #loader {
+    display: none;
+}
+
+.js #loader {
+    display: block;
+    position: absolute;
+    left: 100px;
+    top: 0;
+}
+
+.se-pre-con {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+
+}
+
+.loader-1 {
+    background: url(../img/preload/loader-64x/Preloader_1.gif) center no-repeat #fff;
+}
+
+.loader-2 {
+    background: url(../img/preload/loader-64x/Preloader_3.gif) center no-repeat #fff;
+}
+
+.loader-3 {
+    background: url(../img/preload/loader-64x/Preloader_4.gif) center no-repeat #fff;
+}
+
+.loader-4 {
+    background: url(../img/preload/loader-64x/Preloader_4.gif) center no-repeat #fff;
+}
+
+.loader-5 {
+    background: url(../img/preload/loader-64x/Preloader_2.gif) center no-repeat #fff;
+}
